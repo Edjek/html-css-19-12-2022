@@ -5,6 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>HTML - Form Practice</title>
+        <style>
+            td{
+                border: 1px solid black;
+            }
+        </style>
     </head>
     <body>
         <div>
@@ -12,10 +17,78 @@
                 <table>
                     <tr>
                         <td>
-                            <label for="">Pseudo</label>
+                            <label for="name">Pseudo</label>
                         </td>
                         <td>
-                            <input type="text" id="" />
+                            <input type="text" id="name" required autofocus placeholder="je suis un message" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>
+                            <input type="password" id="password" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="vehicule">Véhicule</label>
+                        </td>
+                        <td>
+                            <select id="vehicule">
+                                <option value="voiture">voiture</option>
+                                <option value="moto">moto</option>
+                                <option value=""></option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="">Dites nous en plus sur vous</label>
+                        </td>
+                        <td>
+                            <textarea placeholder=""  id="" ></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sexe</td>
+                        <td>
+                            <input type="radio" id="men" value="men" name="sex">
+                            <label for="men">Homme</label>
+                            <input type="radio" id="women" value="women" name="sex">
+                            <label for="women">Femme</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Sports pratiqués</td>
+                        <td>
+                            <input type="checkbox" id="tennis">
+                            <label for="tennis">tennis</label>
+                            <input type="checkbox" id="foot">
+                            <label for="foot">foot</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="file">Télécharger</label>
+                        </td>
+                        <td>
+                            <input type="file" id="file">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input type="submit" value="Envoyer">
+                            <input type="reset" >
                         </td>
                     </tr>
                 </table>
