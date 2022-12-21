@@ -1,10 +1,13 @@
+/* * signifie que cela s'applique à tous les selecteurs */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Pour faire hériter en cascade certaines propriétés générales pour toute la page */
 body {
+    font-size: 18px;
     /* background-color: green; */
 }
 
@@ -22,28 +25,34 @@ h1 {
     height: 200px;
 
     /* Margin sert à mettre de la marge exterieur, il y a plein de raccourcis */
-    /* margin-top: 50px;
-    margin-right: 100px;
-    margin-bottom: 100px;
-    margin-left: 100px; */
-    /* margin: 100px;
-    margin: 100px 20px;
-    margin: 100px 20px 50px 70px; */
+    /* margin-top: 50px; */
+    /* margin-right: 100px; */
+    /* margin-bottom: 100px; */
+    /* margin-left: 100px; */
+
+    /* Version raccourci  */
+
+    /* margin: 100px; */
+    /* margin: 100px 20px; */
+    /* margin: 100px 20px 50px 70px; */
     /* margin-left: auto; */
     margin: 50px auto;
 
     /* Padding sert à mettre la marge interieure */
 
-    /* padding-top: 100px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 20px; */
+    /* padding-top: 100px; */
+    /* padding-right: 30px; */
+    /* padding-bottom: 50px; */
+    /* padding-left: 20px; */
+
+    /* Version raccourci  */
+
     /* padding: 50px; */
     /* padding: 40px 90px; */
     /* padding: 40px 90px 50px 30px; */
     padding: 20px;
 
-    /* La propriété raccourci { border: } permet de preciser la taille, le style et la couleur de la bordure */
+    /* La propriété raccourci { border: 1px solid black; } permet de preciser la taille, le style et la couleur de la bordure */
     border: 5px solid #333;
 
     /* { box-shadow: }  permet de créer une ombre */
@@ -53,22 +62,25 @@ h1 {
     border-radius: 10px;
 }
 
-.circle {
-    background-color: pink;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-}
-
 .container {
-    background-color: rgb(97, 162, 81);
-    /* color: #fff; */
-
     min-width: 520px;
     max-width: 1080px;
     width: 90%;
     min-height: 200px;
     margin: 50px auto;
     padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(97, 162, 81);
+    color: #fff;
+}
 
+.circle {
+    background-color: #eb5858;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 4px 4px 12px #999;
+
+    /* Pour créer un rond, on arrondi les bords, avec un border-radius au delà de 50% on obtiens un rond */
+    border-radius: 50%;
 }

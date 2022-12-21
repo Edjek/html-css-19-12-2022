@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+h1 {
+    background-color: pink;
+    color: #fff;
+}
+
+h2 {
+    color: blue;
+}
+h6 {
+    text-decoration: underline;
+}
+
+.images h2 {
+    text-transform: uppercase;
+}
+
+.h5-perso {
+    text-align: right;
+    font-weight: normal;
+}
+
+.subtitle-red {
+    color: red;
+}
+
+.subtitle-h4-orange,
+.list-sports {
+    color: orange;
+}
+
+.color-purple {
+    color: purple;
+}
+
+.link h3 {
+    color: purple;
+}
+
+.font-size-20 {
+    font-size: 30px;
+}
+
+.text-bold {
+    font-weight: bold;
+}
+
+.text-italic {
+    font-style: italic;
+}

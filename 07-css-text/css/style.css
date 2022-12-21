@@ -1,4 +1,5 @@
 body {
+    /* Couleur du texte */
     color: #333;
 
     /* Police de caractère */
@@ -16,8 +17,20 @@ body {
     /* oblique | normal |italic */
 
     /* Alignement du texte */
-    text-align: justify;
+    text-align: center;
     /* center | left | right | justify */
+}
+
+li {
+    /* Supprimer les puces */
+    list-style: none;
+    text-align: left;
+}
+
+p {
+    /* Majuscule, Minuscule */
+    text-transform: uppercase;
+    /* lowercase | none | capitalize */
 }
 
 a {
@@ -31,16 +44,5 @@ a {
 
 /* La pseudo class :hover signifie au survole */
 a:hover {
-    color: blue;
-}
-
-li {
-    /* Supprimer les puces */
-    list-style: none;
-}
-
-p {
-    /* Majuscule, Minuscule */
-    text-transform: capitalize;
-    /* lowercase | none | capitalize */
+    color: rgb(234, 101, 152);
 }

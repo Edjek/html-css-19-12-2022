@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS - Block</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div>
-        <h1>Les h1 sont aussi des élément block</h1>
-        <div class="container">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo odit voluptas architecto suscipit consectetur. Accusamus pariatur a, nisi error enim repudiandae ad eius unde vero adipisci molestiae voluptatem in iure. ipsum dolor sit.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, distinctio voluptatum. Deserunt numquam ad vitae velit exercitationem laborum doloremque explicabo eveniet, accusamus tenetur? Laborum, iste officiis minus temporibus perspiciatis inventore.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellat nihil voluptatum ab dolorem quibusdam fugit aspernatur ducimus, ipsam rerum excepturi at repellendus similique officiis earum. Totam atque cupiditate reprehenderit.
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CSS - Block</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div>
+            <h1>Les h1 sont aussi des éléments { display: block; }</h1>
+            <div class="container">
+                <p>
+                    { display: block; }
+                    <br />
+                    Les element block peuvent avoir: <br />
+                    une hauteur, une largeur, une marge exterieur, une bordure, une marge interne
+                </p>
+                <p>
+                    Pour penser une section de façon responsive, je peux mettre la largeur en pourcentage { width: 90%; } et je peux si je le souhaite aussi lui donner une largeur
+                    minimum { min-width: 320px; } et une largeur maximum { max-width: 1080px; }
+                </p>
+            </div>
+            <div class="circle"></div>
         </div>
-        <div class="circle"></div>
-    </div>
-</body>
+    </body>
 </html>
