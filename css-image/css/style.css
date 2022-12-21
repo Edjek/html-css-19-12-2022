@@ -1,0 +1,27 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-color: green; */
+}
+
+.discover {
+    width: 90%;
+    min-height: 400px;
+    margin: 50px auto;
+    text-align: center;
+    color: #fff;
+    background-color: blue;
+    background-image: url(../img/pexels-karolina-grabowska-1920.jpg);
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    background-position: center;
+}
+
+.discover a {
+    color: #fff;
+}
