@@ -5,6 +5,11 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>HTML - Introduction</title>
+        <style>
+            html {
+                scroll-behavior: smooth;
+            }
+        </style>
     </head>
     <body>
         <!-- Je suis un commentaire HTML, je n'apparait pas sur la page du navigateur -->
@@ -21,7 +26,7 @@
         <!-- la balise <hr> affiche une ligne, elle définit une pause thématique dans la page -->
         <hr />
 
-        <div>
+        <div id="paragraphe">
             <h2>Les paragraphes</h2>
             <p>Pour créer des <strong>paragraphes</strong> nous allons utiliser la <span>balise </span>p</p>
             <p>
@@ -82,7 +87,9 @@
                 <a href="mailto:rachid@gmail.com">admin@gmail.com</a>
             </div>
 
-            <div></div>
+            <div>
+                <a href="#paragraphe">les paragraphes</a>
+            </div>
         </div>
     </body>
 </html>

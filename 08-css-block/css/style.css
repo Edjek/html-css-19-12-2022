@@ -12,6 +12,8 @@ body {
 }
 
 h1 {
+    /* valeur par défaut */
+    /* display: block; */
     background-color: rgb(59, 119, 231);
     color: #fff;
     text-align: center;
