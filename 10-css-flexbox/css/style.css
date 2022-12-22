@@ -5,12 +5,18 @@
 }
 
 body {
-    /* background-color: green; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
 }
 
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
 .flexbox {
-    background-color: rgb(63, 119, 230);
+    background-color: #4caf50;
     min-height: 400px;
+    margin: 50px;
 
     /* La propriete { display: flex; } donne un pouvoir sur les elements enfants directs  */
     display: flex;
@@ -20,7 +26,7 @@ body {
     /* flex-direction:  column | row  */
 
     /* La propriete { justify-content: ; } permet d'aligner dans le sens principal */
-    justify-content: center;
+    justify-content: space-around;
     /* flex-start | center | flex-end | space-between | space-around */
 
     /* La propriete { align-items: ; } permet d'aligner dans l'axe secondaire */
@@ -36,8 +42,7 @@ body {
 }
 
 .flexbox p {
-    background-color: pink;
     width: 250px;
-    min-height: 150px;
-    border: 1px solid #999;
+    min-height: 100px;
+    background-color: #3498db;
 }

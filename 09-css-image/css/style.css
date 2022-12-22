@@ -11,12 +11,12 @@ body {
 .discover {
     width: 90%;
     min-height: 400px;
-    margin: auto;
+    margin: 50px auto;
     padding: 30px;
     text-align: center;
     color: #fff;
 
-    /* linear-gradient permet de mettre un overlay (un voile au dessus) pour que le texte soit lisible */
+    /* linear-gradient permet de mettre un overlay (un voile au-dessus) pour que le texte soit lisible */
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), transparent), url(../img/pexels-fauxels-1920.jpg);
     background-size: cover;
     background-position: center;
@@ -55,7 +55,7 @@ body {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: top;
+    object-position: center;
 }
 
 .img-exo-2 {
