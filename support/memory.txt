@@ -1,0 +1,17 @@
+<!-- Banque d'image -->
+https://www.pexels.com/fr-fr/
+https://pixabay.com/fr/
+https://unsplash.com/
+
+<!-- Les polices de caractère -->
+https://fonts.google.com/
+
+<!-- Pour des couleurs assortis en CSS -->
+https://coolors.co/
+https://colorhunt.co/
+
+<!-- Pour partager du CSS -->
+https://codepen.io/dihcar-cesar
+
+<!-- Pour vous exercer aux flexbox -->
+https://flexboxfroggy.com/#fr
