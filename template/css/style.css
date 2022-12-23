@@ -29,16 +29,13 @@ h1 {
     font-size: 35px;
 }
 
-
 /* MEDIA QUERY */
 /* 768px ecran de tablette */
 @media only screen and (max-width: 768px) {
-
 }
 
 /* 360px ecran de smartphone */
 @media only screen and (max-width: 360px) {
-
 }
 
 /* Common screen sizes :
